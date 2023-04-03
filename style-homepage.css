@@ -62,3 +62,12 @@ a:hover {
     padding-bottom: 300px;
     background-color: #FEC3AE;
 }
+.bars{
+    margin-left: 28%;
+}
+.bars:hover{
+    margin-left:28%;
+    transform:scaleY(1.5);
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
