@@ -5,3 +5,43 @@ mango - #FDAA02
 raspberry - #FB276A
 magenta - #FA279A
 violet - #6205D6
+*/
+
+.nav_bar{
+    margin:auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.all_navigation{
+    display: flex;
+    height:80px;
+    align-items: center;
+}
+.all_navigation li{
+    list-style: none;
+    display:inline-block;
+}
+.nav_bar_links{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+.nav_bar_links li{
+    margin-left: 40px;
+    text-decoration: none;
+    text-align: center;
+    color:#FA279A;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400px;
+}
+.nav_bar_links li,
+a {
+  text-decoration: none;
+  color: #FA279A;
+}
+.nav_bar_links li,
+a:hover {
+  color: #6205D6;
+}
