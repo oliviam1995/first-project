@@ -7,6 +7,9 @@ magenta - #FA279A
 violet - #6205D6
 */
 
+*{
+    font-family: rubik;
+}
 .nav_bar{
     margin:auto;
     margin-top: 6px;
@@ -47,4 +50,15 @@ a {
 .nav_bar_links li,
 a:hover {
   color: #FB276A;
+}
+/* BODY */
+.box-one{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: #FDAA02;
+}
+.box-two{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: #FEC3AE;
 }
