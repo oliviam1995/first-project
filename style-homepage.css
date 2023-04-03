@@ -19,6 +19,9 @@ violet - #6205D6
     height:80px;
     align-items: center;
 }
+.logo{
+    padding-left: 50px;
+}
 .all_navigation li{
     list-style: none;
     display:inline-block;
@@ -29,7 +32,7 @@ violet - #6205D6
     align-items: center;
   }
 .nav_bar_links li{
-    margin-left: 40px;
+    margin-left: 75px;
     text-decoration: none;
     text-align: center;
     color:#FA279A;
@@ -43,5 +46,5 @@ a {
 }
 .nav_bar_links li,
 a:hover {
-  color: #6205D6;
+  color: #FB276A;
 }
