@@ -10,6 +10,7 @@ violet - #6205D6
 *{
     font-family: rubik;
 }
+
 .nav_bar{
     margin:auto;
     margin-top: 6px;
@@ -52,10 +53,52 @@ a:hover {
   color: #FB276A;
 }
 /* BODY */
+.section1{
+    height: 500px
+}
 .box-one{
     padding-top: 300px;
     padding-bottom: 300px;
     background-color: #FDAA02;
+}
+
+.container{
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag{
+    width: 150px;
+    height: 200px;
+    border-radius: 9px;
+    background-color:#4857EF;
+    margin-right: 50px;
+    opacity: 0;
+    transform: translate(0, 30%);
+    transition: all 1s;
+    animation-iteration-count: 1;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+#square1{
+   margin-top: 0px;
+   transition-delay: 0s;
+}
+#square2{
+    margin-top: 25px;
+    transition-delay: 0.3s;
+}
+
+#square3{
+    margin-top: 50px;
+    transition-delay: 0.7s;
 }
 .box2{
     padding-top: 100px;
