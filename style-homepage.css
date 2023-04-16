@@ -321,6 +321,15 @@ a:hover {
 .section1{
     height: 500px
 }
+
+.headerbutton{
+	border: 0;
+	border-radius: 12px;
+	background-color: #4857EF;
+	color: #ffffff;
+	padding: 20px 20px;
+	
+}
 .box-one{
     padding-top: 300px;
     padding-bottom: 300px;
