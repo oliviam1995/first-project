@@ -74,7 +74,6 @@ a:hover {
     width: 150px;
     height: 200px;
     border-radius: 9px;
-    background-color:#4857EF;
     margin-right: 50px;
     opacity: 0;
     transform: translate(0, 30%);
@@ -88,17 +87,29 @@ a:hover {
   }
 
 #square1{
+   
+   width: 210px;
+   height: 300px; 
    margin-top: 0px;
    transition-delay: 0s;
+   background-image: url(./Images/shoppingcard-01.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
 }
 #square2{
+    width: 210px;
+    height: 300px;
     margin-top: 25px;
     transition-delay: 0.3s;
+    background-image: url(./Images/dpmockup-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #square3{
     margin-top: 50px;
     transition-delay: 0.7s;
+    background-color: #4857EF;
 }
 .box2{
     padding-top: 100px;
