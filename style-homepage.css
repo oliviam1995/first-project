@@ -20,7 +20,7 @@ body {
 	/* background: hsl(
 		327
 		calc(var(--active) * 97%)
-		6% */
+		6% 
 	);
 	display: grid;
 	place-items: center;
@@ -109,7 +109,7 @@ button:is(:hover, :focus-visible) path {
 	--scale: 2.5;
 	--delay: 0.35;
 	--base: 30%;
-} */
+} 
 
 button:before {
 	content: "";
