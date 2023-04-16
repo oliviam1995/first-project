@@ -71,8 +71,6 @@ a:hover {
 }
 
 .tag{
-    width: 150px;
-    height: 200px;
     border-radius: 9px;
     margin-right: 50px;
     opacity: 0;
@@ -107,6 +105,8 @@ a:hover {
 }
 
 #square3{
+    width: 150px;
+    height: 200px;
     margin-top: 50px;
     transition-delay: 0.7s;
     background-color: #4857EF;
