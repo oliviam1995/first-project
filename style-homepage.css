@@ -337,11 +337,14 @@ a:hover {
 }
 
 .container{
+	height: 500px;
     display: flex;
     flex-direction: auto;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+	text-align:center;
+	color:#ffffff;
 }
 
 .tag{
@@ -384,6 +387,42 @@ a:hover {
     margin-top: 50px;
     transition-delay: 0.7s;
     background-color: #4857EF;
+}
+
+#square4{
+	width: 150px;
+    height: 200px;
+    margin-top: 0;
+	margin-bottom: 75px;
+    transition-delay: 0s;
+    background-color: #FB276A;
+}
+
+#square5{
+	width: 150px;
+    height: 200px;
+    margin-top: 0;
+	margin-bottom: 75px;
+    transition-delay: 1s;
+    background-color: #FB276A;
+}
+
+#square6{
+	width: 150px;
+    height: 200px;
+    margin-top: 0;
+	margin-bottom: 75px;
+    transition-delay: 2s;
+    background-color: #FB276A;
+}
+
+#square7{
+	width: 150px;
+    height: 200px;
+    margin-top: 0;
+	margin-bottom: 75px;
+    transition-delay: 3s;
+    background-color: #FB276A;
 }
 .box2{
     padding-top: 100px;
